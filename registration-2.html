@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Регистрация</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230417154107">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="registration-2">
+	<div class="wrapper">
+		<main class="page">
+			<div class="page__registration registration">
+				<div class="registration__container">
+					<div class="registration__logo">
+						<img data-src="img/icons/logo.svg" alt="">
+					</div>
+					<div class="registration__forms">
+						<form action="#" class="registration__form">
+							<div class="registration__content">
+								<div class="registration__inputs">
+									<label for="text" class="registration__label">Дата рождения</label>
+									<div class="registration__input">
+										<input placeholder="Дата рождения" type="text" name="form[]" class="data-search">
+									</div>
+								</div>
+								<div class="registration__inputs inputs-options">
+									<div class="registration__label">Пол</div>
+									<div class="registration__input">
+										<div class="registration__options-popup options-popup">
+											<div class="options-popup__item">
+												<input hidden id="o_8" class="options-popup__input" checked type="radio" value="8" name="option_9">
+												<label for="o_8" class="options-popup__label">М</label>
+											</div>
+											<span class="options-popup__line">/</span>
+											<div class="options-popup__item">
+												<input hidden id="o_9" class="options-popup__input" type="radio" value="9" name="option_9">
+												<label for="o_9" class="options-popup__label">Ж</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="registration__inputs">
+									<label for="text" class="registration__label">Населенный пункт</label>
+									<div class="registration__input">
+										<div class="registration__search-city select">
+											<div class="select__menu">
+												<div class="select__btn">
+													<div class="select__btntext">
+														<input type="text" name="form[]" placeholder="Населенный пункт" value="" class="select__input">
+													</div>
+													<div class="select__icon"></div>
+												</div>
+												<div class="select__body">
+													<ul data-simplebar class="select__options">
+														<li data-text="Москва" class="select__option">
+															<div class="select__option-text">Москва</div>
+														</li>
+														<li data-text="Магнитогорск" class="select__option">
+															<div class="select__option-text">Магнитогорск</div>
+														</li>
+														<li data-text="Магадан" class="select__option">
+															<div class="select__option-text">Магадан</div>
+														</li>
+														<li data-text="Магадан" class="select__option">
+															<div class="select__option-text">Магадан</div>
+														</li>
+														<li data-text="Москва" class="select__option">
+															<div class="select__option-text">Москва</div>
+														</li>
+														<li data-text="Магнитогорск" class="select__option">
+															<div class="select__option-text">Магнитогорск</div>
+														</li>
+														<li data-text="Магадан" class="select__option">
+															<div class="select__option-text">Магадан</div>
+														</li>
+														<li data-text="Магадан" class="select__option">
+															<div class="select__option-text">Магадан</div>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="registration__inputs registration-password">
+									<label for="password" class="registration__label">Придумайте пароль</label>
+									<div class="registration__input">
+										<input data-required data-validate placeholder="Придумайте пароль" data-error="Пароль должен содержать не менее восьми знаков, включать буквы, цифры и специальные символы
+												" type="password" name="form[]">
+										<div class="registration__password">Пароль должен содержать не менее восьми знаков, включать буквы, цифры и специальные символы</div>
+									</div>
+								</div>
+								<div class="registration__inputs">
+									<label for="password" class="registration__label">Подтвердите пароль</label>
+									<div class="registration__input">
+										<input data-required data-validate placeholder="Подтвердите пароль" data-error="Пароли не совпадают" type="password" name="form[]">
+									</div>
+								</div>
+							</div>
+							<div class="registration__buttons">
+								<button type="submit" class="registration__button-submit button-bg">Регистрация</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+	<script src="js/app.min.js?_v=20230417154107"></script>
+</body>
+
+</html>

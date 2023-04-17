@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Регистрация</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230417154107">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="registration">
+	<div class="wrapper">
+		<main class="page">
+			<div class="page__registration registration">
+				<div class="registration__container">
+					<div class="registration__logo">
+						<img data-src="img/icons/logo.svg" alt="">
+					</div>
+					<div class="registration__forms">
+						<form action="#" class="registration__form">
+							<div class="registration__content">
+								<div class="registration__inputs-step-1">
+									<div class="registration__inputs">
+										<label for="name" class="registration__label">Имя</label>
+										<div class="registration__input">
+											<input placeholder="Имя" type="text" name="form[]">
+										</div>
+									</div>
+									<div class="registration__inputs">
+										<label for="name" class="registration__label">Фамилия</label>
+										<div class="registration__input">
+											<input placeholder="Фамилия" type="text" name="form[]">
+										</div>
+									</div>
+									<div class="registration__inputs">
+										<label class="registration__label">Телефон</label>
+										<div class="registration__input">
+											<input placeholder="Телефон" data-required data-validate type="tel" name="form[]" data-error="Номер телефона недостаточной длины" class="input-tel">
+										</div>
+									</div>
+									<div class="registration__buttons">
+										<button type="submit" class="registration__button button-bg code">Получить код</button>
+									</div>
+								</div>
+							</div>
+						</form>
+						<form action="#" class="registartion__form">
+							<div class="registration__inputs-step-2">
+								<div class="registration__inputs">
+									<div class="registration__inputs-block">
+										<div class="registration__block">
+											<div class="registration__label">Код из CМС</div>
+											<div class="registration__input">
+												<input data-required data-validate placeholder="Код из CМС" type="text" name="form[]" data-error="Неверный код">
+											</div>
+										</div>
+										<div class="registration__buttons">
+											<span class="time"></span>
+											<div class="registration__button _active-timer button-bg active-timer-button">Отправить заново</div>
+										</div>
+									</div>
+								</div>
+								<div class="registration__buttons">
+									<button type="submit" class="registration__button-submit button-bg">Далее</button>
+								</div>
+								<div class="registration__text">Нажимая кнопку «Далее», Вы принимаете пользовательское соглашение и политику конфиденциальности </div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+	<script src="js/app.min.js?_v=20230417154107"></script>
+</body>
+
+</html>
